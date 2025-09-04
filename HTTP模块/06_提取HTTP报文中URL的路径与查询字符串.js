@@ -8,7 +8,9 @@ const server = http.createServer((request, response) => {
   let url = new URL(request.url, 'http://127.0.0.1');
   //输出路径
   console.log(url.pathname);
-  //输出 keyword 查询字符串
+  console.log(1111);
+  
+  //输出 keyword 查询字符串,因为是一个对象，用这种映射的语法来获取
   console.log(url.searchParams.get('keyword'));
   response.end('url new');
 });

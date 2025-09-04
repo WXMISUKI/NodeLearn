@@ -6,8 +6,10 @@ const url = require('url');
 //创建服务对象
 const server = http.createServer((request, response) => {
   //2. 解析 request.url 
-  // console.log(request.url);
+  console.log(request.url);
   let res = url.parse(request.url, true);
+  console.log(res);
+  
   //路径
   let pathname = res.pathname;
   //查询字符串
