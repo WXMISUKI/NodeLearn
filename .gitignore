@@ -1,22 +1,56 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Node.js项目依赖目录
+node_modules/
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 工具目录
+dist/
+build/
+
+# 各种测试覆盖率报告
+coverage/
+*.info
+
+# 依赖管理
+.npm
+.npmrc
+.yarn-integrity
+.yarnrc
+.yarn/
+package-lock.json
+yarn.lock
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器相关
 .vscode/
-#Cache folder
+.idea/
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
+
+# AL项目相关（保留部分）
 .alcache/
-#Symbols folder
 .alpackages/
-#Snapshots folder
 .snapshots/
-#Testing Output folder
 .output/
-#Extension App-file
 *.app
-#Rapid Application Development File
 rad.json
-#Translation Base-file
 *.g.xlf
-#License-file
 *.flf
-#Test results file
 TestResults.xml
