@@ -1,0 +1,52 @@
+{
+  "accounts": [
+    {
+      "id": "KpCFil1Cd",
+      "title": "买水",
+      "time": "2025-09-14",
+      "type": "-1",
+      "account": "100",
+      "remark": "好多水"
+    },
+    {
+      "id": "OX5nM29PH",
+      "title": "买水",
+      "time": "2025-09-14",
+      "type": "-1",
+      "account": "100",
+      "remark": "好多水"
+    },
+    {
+      "id": "YjltrN3cP",
+      "title": "买水",
+      "time": "2025-09-14",
+      "type": "-1",
+      "account": "100",
+      "remark": "好多水"
+    },
+    {
+      "id": "klnIqSJYP",
+      "title": "买鼠标",
+      "time": "2025-09-03",
+      "type": "-1",
+      "account": "222",
+      "remark": "哈哈哈"
+    },
+    {
+      "id": "4R3W5pZi5",
+      "title": "工资1111",
+      "time": "2025-09-10",
+      "type": "1",
+      "account": "43999",
+      "remark": "666工资啊啊啊1111\r\n"
+    },
+    {
+      "id": "xx",
+      "title": "工资",
+      "time": "2025-09-09",
+      "type": "1",
+      "account": "4399",
+      "remark": "666工资啊啊啊\r\n"
+    }
+  ]
+}
